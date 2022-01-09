@@ -93,39 +93,58 @@ if ((userAge) => 18) {
 // 		console.log("Неккоректно введено или не сдано");
 // }
 
-const a = Number(prompt("Первое число"));
-const b = Number(prompt("Второе число"));
-const znak = prompt("Введите операцию");
+// const a = Number(prompt("Первое число"));
+// const b = Number(prompt("Второе число"));
+// const znak = prompt("Введите операцию");
 
-switch (znak) {
-	case "+":
-		console.log("Сложение ", a + b);
-		break;
-	case "-":
-		console.log("Вычитание ", a - b);
-		break;
-	case "/":
-		console.log("Деление ", a / b);
-		break;
-	case "*":
-		console.log("Умножение ", a * b);
-		break;
-	default:
-		console.log("Вы ввели некорректную операцию");
-		break;
-}
+// switch (znak) {
+// 	case "+":
+// 		console.log("Сложение ", a + b);
+// 		break;
+// 	case "-":
+// 		console.log("Вычитание ", a - b);
+// 		break;
+// 	case "/":
+// 		console.log("Деление ", a / b);
+// 		break;
+// 	case "*":
+// 		console.log("Умножение ", a * b);
+// 		break;
+// 	default:
+// 		console.log("Вы ввели некорректную операцию");
+// 		break;
+// }
 
 //Условный тенарный оператор
-const number1 = Number(prompt("первое число"));
-const number2 = Number(prompt("второе число"));
+// const number1 = Number(prompt("первое число"));
+// const number2 = Number(prompt("второе число"));
 
-if (number1 > number2) {
-	console.log(number2);
-} else {
-	console.log(number1);
-}
+// if (number1 > number2) {
+// 	console.log(number2);
+// } else {
+// 	console.log(number1);
+// }
 
-const minNumber = number2 < number1 ? number2 : number1;
-console.log(minNumber);
+// const minNumber = number2 < number1 ? number2 : number1;
+// console.log(minNumber);
 //Если совершенолетний, то переменная access приме значение "has access"
 //иначе переменная access примет знаение "hasn`t access"
+//const access = (Number(prompt("enter you age "))>=18) ?
+
+const stepsCount = 4;
+let currentStep = 1;
+while (currentStep++ <= stepCount) {
+	console.log("Пройди прямо");
+	console.log("Поверни направо");
+}
+
+//У пользователя есть книга с pageCount страниц
+// Вывести номера страниц с1й по последнюю
+let countPage = 1;
+const totalPages = 20;
+while (countPage++ < totalPages) {
+	if (countPage % 2 == 0) {
+		console.log(countPage);
+	}
+	countPage++;
+}
