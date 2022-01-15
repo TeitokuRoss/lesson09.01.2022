@@ -79,11 +79,26 @@ let number1 = Number(prompt("Введите число. которое умно�
 // 	return x4;
 // }
 //написать функцию для расчета суммы чисел от 1 до n
+const sum1To5 = sum1ToMaxValue(5);
+console.log(sum1To5);
 
 function sum1ToMaxValue(maxValue) {
 	let sum = 0;
 	for (let i = 1; 1 <= maxValue; i++) {
 		sum += 1;
+	}
+	return sum;
+}
+//написать функцию которая возвращает true or false
+//в зависимости от переданого количества лет
+
+let n1 = 1;
+const n2 = Number(prompt("Введите конечное число"));
+
+function productNumbers(n2, n1 = 1) {
+	const sum = 1;
+	for (n1; n1 <= n2; n1++) {
+		sum = sum * n1;
 	}
 	return sum;
 }
