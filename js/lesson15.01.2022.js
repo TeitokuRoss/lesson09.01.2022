@@ -29,10 +29,61 @@
 
 let number1 = Number(prompt("Введите число. которое умножаем"));
 
-for (let i = 1; i <= 9; i++) {
-	let number1 = Number(prompt("Введите число. которое умножаем"));
-	for (let j = 1; j <= 9; j++) {
-		const sum = i * j;
-		console.log(sum, i + "*" + j);
+// for (let i = 1; i <= 9; i++) {
+// 	let number1 = Number(prompt("Введите число. которое умножаем"));
+// 	console.group("Таблица умножена для " + i);
+// 	for (let j = 1; j <= 9; j++) {
+// 		const sum = i * j;
+// 		console.log(sum, i + "*" + j);
+// 	}
+// }
+
+//переменные, объявленные вне любого блока -- глобальные, видны всем блокам(Scope - Script)
+//Переменнные, объявленные внутри бока, т.е. в {} -- локлаьные, видны только внутри блока(Scope - Block)
+//пользователь имеет 3 попытки ввести пароль
+//если паль верен, то вывести "Пароль верен"
+//Иначе пароль неверен
+// let TRY_LIMIT = 3;
+// const password = "qwerty";
+// let currentTry = 1;
+// let isPasswordCorrect = false;
+
+// do {
+// 	const userInputPassword = prompt("Input password");
+//     if(userInputPassword = PASSWORD){
+//         console.log("right password")
+//         break;
+//     }
+// } while (++currentTry <= TRY_LIMIT);
+// if(isPasswordCorrect){
+//     console.log("Пароль верен")
+// }else{
+//     console.log("Пароль неверен")
+// };
+// const passwType = isPasswordCorrect ? 'верен' : 'неверен'
+// console.log(`Пароль` ${isPasswordCorrect ? 'верен' : 'неверен'});
+//  const sumAB = sum (1,2);
+
+//  function sum(a, b){
+//      const sumOfAB = a+b;
+//      return sumOfAB;
+//  }
+//написать функцию, котороая возводит указанное число(параметр) в степень 4
+//a*a*a*a
+//a**4
+
+// const deg4 = Number(prompt("Введите число"));
+
+// function deg4(x) {
+// 	const x4 = x ** 4;
+// 	return x4;
+// }
+//написать функцию для расчета суммы чисел от 1 до n
+
+function sum1ToMaxValue(maxValue) {
+	let sum = 0;
+	for (let i = 1; 1 <= maxValue; i++) {
+		sum += 1;
 	}
+	return sum;
 }
