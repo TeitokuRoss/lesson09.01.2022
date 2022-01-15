@@ -131,20 +131,20 @@ if ((userAge) => 18) {
 //иначе переменная access примет знаение "hasn`t access"
 //const access = (Number(prompt("enter you age "))>=18) ?
 
-const stepsCount = 4;
-let currentStep = 1;
-while (currentStep++ <= stepCount) {
-	console.log("Пройди прямо");
-	console.log("Поверни направо");
-}
+// const stepsCount = 4;
+// let currentStep = 1;
+// while (currentStep++ <= stepCount) {
+// 	console.log("Пройди прямо");
+// 	console.log("Поверни направо");
+// }
 
 //У пользователя есть книга с pageCount страниц
 // Вывести номера страниц с1й по последнюю
-let countPage = 1;
-const totalPages = 20;
-while (countPage++ < totalPages) {
-	if (countPage % 2 == 0) {
-		console.log(countPage);
-	}
-	countPage++;
-}
+// let countPage = 1;
+// const totalPages = 20;
+// while (countPage++ < totalPages) {
+// 	if (countPage % 2 == 0) {
+// 		console.log(countPage);
+// 	}
+// 	countPage++;
+// }
