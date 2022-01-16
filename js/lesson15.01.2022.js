@@ -92,13 +92,13 @@ function sum1ToMaxValue(maxValue) {
 //написать функцию которая возвращает true or false
 //в зависимости от переданого количества лет
 
-let n1 = 1;
-const n2 = Number(prompt("Введите конечное число"));
+// let n1 = 1;
+// const n2 = Number(prompt("Введите конечное число"));
 
-function productNumbers(n2, n1 = 1) {
-	const sum = 1;
-	for (n1; n1 <= n2; n1++) {
-		sum = sum * n1;
-	}
-	return sum;
-}
+// function product(n2, n1 = 1) {
+// 	const sum = 1;
+// 	for (n1; n1 <= n2; n1++) {
+// 		sum = sum * n1;
+// 	}
+// 	return sum;
+// }
